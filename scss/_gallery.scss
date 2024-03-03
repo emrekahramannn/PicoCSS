@@ -1,0 +1,25 @@
+body > section {
+  display: flex;
+  margin: 6rem 1rem 3rem;
+  align-items: stretch;
+  justify-content: center;
+  height: 40vh;
+  > div {
+    width: 25%;
+    height: 100%;
+    padding: 0 1rem;
+    overflow: hidden;
+    border-radius: 10px;
+    img {
+      display: block;
+      position: relative;
+      height: 100% !important;
+      border-radius: 10px;
+      object-fit: cover;
+      &:hover {
+        transform: scale(1.2);
+        transition: $transition;
+      }
+    }
+  }
+}

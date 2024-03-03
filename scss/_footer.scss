@@ -1,0 +1,24 @@
+body > footer {
+  background-color: darken($danger, 8%);
+  width: 100%;
+  > nav {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > p {
+      color: $light;
+      font-size: 2rem;
+      text-transform: capitalize;
+    }
+    > ul {
+      display: flex;
+      > li > a {
+        color: $light;
+        padding: 0.8rem 1.6rem;
+      }
+    }
+  }
+}

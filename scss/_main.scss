@@ -1,0 +1,38 @@
+body > main {
+  width: 90vw;
+  margin: 8rem auto 5rem;
+  > div {
+    display: flex;
+    height: 48vh;
+    overflow: hidden;
+    margin-bottom: 5rem;
+    > article {
+      flex: 8;
+      padding: 6rem 2rem;
+      flex: 2;
+      > h2 {
+        font-size: 2rem;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      > p {
+        font-size: 1.4rem;
+        text-align: center;
+        margin-bottom: 0.6rem;
+      }
+    }
+    > aside {
+      flex: 2;
+      border-radius: 8px;
+      overflow: hidden;
+      > img {
+        width: 100%;
+        &:hover {
+          transform: scale(1.1);
+          transition: all 0.4s ease-in-out;
+        }
+      }
+    }
+  }
+}
